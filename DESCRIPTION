@@ -5,13 +5,13 @@ Version: 2.30.0
 Date: 2015-03-24
 Authors@R: as.person(c(
     "John D. Storey <jdstorey@princeton.edu> [aut, cre]", 
-    "Andrew J. Bass <ajbass@princeton.edu> [aut]", 
+    "Andrew J. Bass <ajbass@emory.edu> [aut]", 
     "Alan Dabney [aut]",
     "David Robinson [aut]",
     "Gregory Warnes [ctb]"
   ))
 Maintainer: John D. Storey <jstorey@princeton.edu>, Andrew J. Bass
-    <ajbass@princeton.edu>
+    <ajbass@emory.edu>
 biocViews: MultipleComparisons
 Description: This package takes a list of p-values resulting from the
     simultaneous testing of many hypotheses and estimates their

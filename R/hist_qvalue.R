@@ -67,7 +67,7 @@ hist.qvalue <- function(x, ...) {
   # Histogram figure
   ggplot(dm, aes_string(x = 'pvals')) +
          ggtitle("p-value density histogram") +
-         geom_histogram(aes_string(y = '..density..'), colour = "black",
+         geom_histogram(aes(y = after_stat(density)), colour = "black",
                         fill = "white", binwidth = 0.04, center=0.02) +
          coord_cartesian(xlim = c(0, 1)) +
          geom_line(aes_string(x = 'pvals', y = 'value', color = 'variable', linetype = 'variable'), size = 1.1) +

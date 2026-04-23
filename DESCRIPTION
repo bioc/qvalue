@@ -3,13 +3,14 @@ Type: Package
 Title: Q-value estimation for false discovery rate control
 Version: 2.43.0
 Date: 2015-03-24
-Authors@R: as.person(c(
-    "John D. Storey <jdstorey@princeton.edu> [aut, cre]", 
-    "Andrew J. Bass <ajbass@emory.edu> [aut]", 
-    "Alan Dabney [aut]",
-    "David Robinson [aut]",
-    "Gregory Warnes [ctb]"
-  ))
+Authors@R: c(
+  person(given = "John D.", family = "Storey",
+         email = "jdstorey@princeton.edu", role = c("aut", "cre")),
+  person(given = "Andrew J.", family = "Bass",
+         email = "ajbass@emory.edu", role = "aut"),
+  person(given = "Alan", family = "Dabney", role = "aut"),
+  person(given = "David", family = "Robinson", role = "aut"),
+  person(given = "Gregory", family = "Warnes", role = "ctb"))
 Maintainer: John D. Storey <jstorey@princeton.edu>, Andrew J. Bass
     <ajbass@emory.edu>
 biocViews: MultipleComparisons
